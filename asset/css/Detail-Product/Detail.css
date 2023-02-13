@@ -1,0 +1,79 @@
+/* Categories */
+
+/*  */
+
+.label-stock {
+  background-color: #2762be;
+  width: 5%;
+  border-radius: 3px;
+  position: relative;
+  left: 5px;
+  color: white;
+}
+
+.bi-star-fill {
+  color: #2762be;
+}
+
+.cart-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart-button > a {
+  text-decoration: none !important;
+}
+
+.btn-cart {
+  width: 100%;
+  height: 50px !important;
+  background-color: #2762be !important;
+  color: rgb(255, 255, 255) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.btn-cart:hover {
+  color: #d5d6d7 !important;
+}
+
+/*  End */
+
+.card-2 {
+  position: relative;
+  bottom: 25px;
+  background: transparent !important;
+  border: none !important;
+}
+
+.acordian-cont {
+  position: relative;
+  bottom: 40px;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width: 1024px) {
+  .label-stock {
+    font-size: 17px;
+    width: 10%;
+  }
+
+  .card-2 {
+    position: relative;
+    top: 15px;
+  }
+
+  .acordian-cont {
+    position: relative;
+    top: 15px;
+  }
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
